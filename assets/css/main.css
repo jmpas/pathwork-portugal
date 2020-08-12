@@ -51,7 +51,7 @@ body {
 ||				3. Header
 ==================================================*/
 .header {
-  background: url("../images/multipage-header.webp");
+  background: url("../images/multipage-header.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -431,6 +431,10 @@ a .medium:hover {
 .add-item {
   padding: 20px;
 }
+img.about-img {
+  width: 100%;
+}
+
 @media (max-width: 960px) {
   .nav > li {
     text-align: center;
