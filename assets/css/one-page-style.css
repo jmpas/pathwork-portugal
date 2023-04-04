@@ -21,11 +21,13 @@
 	color: #313131;
 }
 
-body .pth-navbar {
-	display: flex !important;
-	justify-content: space-between;
-	align-items: center;
-}
-.pth-navbar .logo {
-	display: block;
+@media only screen and (min-width: 768px) {
+	body .pth-navbar {
+		display: flex !important;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.pth-navbar .logo {
+		display: block;
+	}
 }
