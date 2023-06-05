@@ -1,0 +1,22 @@
+article.pthw-article {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 120ch;
+}
+
+@media only screen and (min-width: 768px) {
+	body .pthw-navbar {
+		display: flex !important;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.pthw-navbar .logo {
+		display: block;
+	}
+}
+
+.pthw-text {
+  font-size: 18px;
+  font-weight: 200;
+}
+
